@@ -1,7 +1,6 @@
 import { FC } from "react";
 import Logo from "../assets/logo.svg";
-
-const navbarLinks = ["features", "team", "sign in"];
+import { navbarLinks } from "../constants";
 
 const Navbar: FC = () => {
   return (
