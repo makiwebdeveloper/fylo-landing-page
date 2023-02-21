@@ -1,6 +1,6 @@
 import {
-  Characteristics,
-  Comments,
+  Features,
+  Team,
   Footer,
   Header,
   Navbar,
@@ -12,9 +12,9 @@ function App() {
     <div>
       <Navbar />
       <Header />
-      <Characteristics />
+      <Features />
       <StayProductive />
-      <Comments />
+      <Team />
       <Footer />
     </div>
   );
