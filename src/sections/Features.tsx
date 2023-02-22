@@ -4,7 +4,7 @@ import { features } from "../constants";
 const Features: FC = () => {
   return (
     <section id="features" className="bg-background-200">
-      <div className="grid grid-cols-2 grid-rows-2 gap-5 md:w-[700px] mx-auto p-10 md:p-0">
+      <div className="grid md:grid-cols-2 md:grid-rows-2 gap-5 w-[300px] md:w-[700px] mx-auto p-10 md:p-0">
         {features.map((feature) => (
           <div key={feature.img} className="text-center">
             <div className="mx-auto w-[100px] h-[100px] flex items-center justify-center">

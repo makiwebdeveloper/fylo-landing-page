@@ -22,7 +22,7 @@ const Header: FC = () => {
       </div>
 
       <div className="absolute bottom-0 left-0 z-[0]">
-        <img src={BgCurvy} className="pointer-events-none w-full" />
+        <img src={BgCurvy} className="pointer-events-none w-screen" />
       </div>
     </header>
   );
