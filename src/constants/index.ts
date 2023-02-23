@@ -3,6 +3,10 @@ import IconCollaboration from "../assets/icon-collaboration.svg";
 import IconAnyFile from "../assets/icon-any-file.svg";
 import IconAccessAnywhere from "../assets/icon-access-anywhere.svg";
 
+import profile1 from "../assets/profile-1.jpg";
+import profile2 from "../assets/profile-2.jpg";
+import profile3 from "../assets/profile-3.jpg";
+
 export const navbarLinks = ["features", "team", "sign in"];
 
 export const features = [
@@ -29,5 +33,29 @@ export const features = [
     title: "Store any type of file",
     description:
       "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.",
+  },
+];
+
+export const teamComments = [
+  {
+    img: profile1,
+    name: "Satish Patel",
+    job: "Founder & CEO, Huddle",
+    comment:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+  },
+  {
+    img: profile2,
+    name: "Bruce McKenzie",
+    job: "Founder & CEO, Huddle",
+    comment:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
+  },
+  {
+    img: profile3,
+    name: "Iva Boyd",
+    job: "Founder & CEO, Huddle",
+    comment:
+      "Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.",
   },
 ];
