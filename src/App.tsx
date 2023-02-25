@@ -5,6 +5,7 @@ import {
   Header,
   Navbar,
   StayProductive,
+  GetStarted,
 } from "./sections";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Features />
       <StayProductive />
       <Team />
+      <GetStarted />
       <Footer />
     </div>
   );

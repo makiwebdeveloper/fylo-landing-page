@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 const Footer: FC = () => {
-  return <footer>Footer</footer>;
+  return <footer className="">Footer</footer>;
 };
 
 export default Footer;

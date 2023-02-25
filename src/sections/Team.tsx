@@ -3,7 +3,7 @@ import { teamComments } from "../constants";
 
 const Team: FC = () => {
   return (
-    <section id="team" className="bg-background-200 py-12">
+    <section id="team" className="bg-background-200 pt-16 pb-52">
       <div className="w-[400px] md:w-[700px] lg:w-[900px] mx-auto flex flex-col md:flex-row gap-5">
         {teamComments.map((item) => (
           <div

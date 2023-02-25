@@ -4,7 +4,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const StayProductive: FC = () => {
   return (
-    <section className="bg-background-200 py-24">
+    <section className="bg-background-200 py-16">
       <div className="flex w-[400px] md:w-[700px] lg:w-[900px] mx-auto flex-col md:flex-row items-center gap-10">
         <img src={ProductiveImg} className="md:w-[50%]" />
         <div className="md:w-[50%]">
