@@ -5,14 +5,14 @@ import { Button } from "../ui";
 
 const Header: FC = () => {
   return (
-    <header className="bg-background-100 min-h-screen p-10 relative">
-      <div className="relative z-[1] md:w-[700px] mx-auto text-center">
+    <header className="bg-background-100 min-h-screen pb-16 relative">
+      <div className="relative z-[1] w-[400px] md:w-[600px] lg:w-[900px] mx-auto flex flex-col items-center">
         <img src={PresentationImg} alt="presentation" />
-        <h1 className="text-white text-4xl font-semibold mt-10">
+        <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold mt-10 text-center">
           All your files in one secure location,
           <br /> accessible anywhere
         </h1>
-        <p className="text-white opacity-90 w-[90%] mx-auto tracking-wider mt-10">
+        <p className="text-white opacity-90 text-sm md:text-base tracking-wider mt-5 text-center">
           Fylo stores all your most important files in one secure location.
           <br />
           Access them wherever you need, share and collaborate with friends
