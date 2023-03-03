@@ -6,7 +6,7 @@ import { Button } from "../ui";
 const Header: FC = () => {
   return (
     <header className="bg-background-100 min-h-screen pb-16 relative">
-      <div className="relative z-[1] w-[400px] md:w-[600px] lg:w-[900px] mx-auto flex flex-col items-center">
+      <div className="relative z-[1] w-[300px] md:w-[600px] lg:w-[900px] mx-auto flex flex-col items-center">
         <img src={PresentationImg} alt="presentation" />
         <h1 className="text-white text-2xl md:text-3xl lg:text-4xl font-semibold mt-10 text-center">
           All your files in one secure location,
